@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MiGeoCundinamarcaII</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="Normal">Normal</string>
+    <string name="Satelite">Satelíte</string>
+    <string name="Hibrido">Híbrido</string>
+    <string name="Terreno">Terreno</string>
+    <string name="Nuevo">Nuevo</string>
+    <string name="title_activity_nuevo_sitio">NuevoSitioActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

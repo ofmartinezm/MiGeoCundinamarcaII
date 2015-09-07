@@ -1,0 +1,73 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/TvLatitud"
+        android:text="Latitud" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etLat" />
+    <TextView
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/TvLongitud"
+        android:text="Longitud" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etLon" />
+
+    <TextView
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/TvNombre"
+        android:text="Nombre" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etNom" />
+
+    <TextView
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Tvdescripcion"
+        android:text="Descripcion" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etDesc" />
+
+    <TextView
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/TvGategoria"
+        android:text="Categoria" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etCat" />
+
+
+
+        <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        android:id="@+id/Ok"
+        android:layout_gravity="center_horizontal"
+
+        android:nestedScrollingEnabled="false"
+        android:onClick="salir"/>
+</LinearLayout>
